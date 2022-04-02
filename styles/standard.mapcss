@@ -781,7 +781,8 @@ node|z11-[railway=halt]
 /**********************************************/
 node|z8-[railway=junction],
 node|z8-[railway=service_station],
-node|z8-[railway=crossover]
+node|z8-[railway=crossover],
+node|z8-[railway=railway_crossing]
 {
 	z-index: 15000;
 	text: "railway:ref";
@@ -796,7 +797,8 @@ node|z8-[railway=crossover]
 /* show full station name in higher zoom levels */
 node|z11-[railway=junction],
 node|z11-[railway=service_station],
-node|z11-[railway=crossover]
+node|z11-[railway=crossover],
+node|z11-[railway=railway_crossing]
 {
 	text: "name";
 }
